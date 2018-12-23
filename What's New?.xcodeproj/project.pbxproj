@@ -12,6 +12,28 @@
 		8C0B8B6321CF5084007748A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B8B6121CF5084007748A2 /* Main.storyboard */; };
 		8C0B8B6521CF5086007748A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B8B6421CF5086007748A2 /* Assets.xcassets */; };
 		8C0B8B6821CF5086007748A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B8B6621CF5086007748A2 /* LaunchScreen.storyboard */; };
+		8C8E7DA721CF57320030813B /* WhatsNewViewController+TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D8A21CF57320030813B /* WhatsNewViewController+TitleView.swift */; };
+		8C8E7DA821CF57320030813B /* WhatsNewViewController+CompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D8B21CF57320030813B /* WhatsNewViewController+CompletionButton.swift */; };
+		8C8E7DA921CF57320030813B /* WhatsNewViewController+HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D8C21CF57320030813B /* WhatsNewViewController+HapticFeedback.swift */; };
+		8C8E7DAA21CF57320030813B /* WhatsNewViewController+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D8D21CF57320030813B /* WhatsNewViewController+Animation.swift */; };
+		8C8E7DAB21CF57320030813B /* WhatsNewViewController+ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D8E21CF57320030813B /* WhatsNewViewController+ItemsView.swift */; };
+		8C8E7DAC21CF57320030813B /* WhatsNewViewController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D8F21CF57320030813B /* WhatsNewViewController+Configuration.swift */; };
+		8C8E7DAD21CF57320030813B /* WhatsNewViewController+DetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9021CF57320030813B /* WhatsNewViewController+DetailButton.swift */; };
+		8C8E7DAE21CF57320030813B /* WhatsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9121CF57320030813B /* WhatsNewViewController.swift */; };
+		8C8E7DAF21CF57320030813B /* WhatsNew+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9321CF57320030813B /* WhatsNew+Version.swift */; };
+		8C8E7DB021CF57320030813B /* WhatsNew+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9421CF57320030813B /* WhatsNew+Item.swift */; };
+		8C8E7DB121CF57320030813B /* WhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9521CF57320030813B /* WhatsNew.swift */; };
+		8C8E7DB221CF57320030813B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9721CF57320030813B /* UIColorExtension.swift */; };
+		8C8E7DB321CF57320030813B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9821CF57320030813B /* UIImageExtension.swift */; };
+		8C8E7DB421CF57320030813B /* WhatsNewButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9B21CF57320030813B /* WhatsNewButtonsView.swift */; };
+		8C8E7DB521CF57320030813B /* WhatsNewCompletionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9C21CF57320030813B /* WhatsNewCompletionButton.swift */; };
+		8C8E7DB621CF57320030813B /* WhatsNewDetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9D21CF57320030813B /* WhatsNewDetailButton.swift */; };
+		8C8E7DB721CF57320030813B /* WhatsNewTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7D9F21CF57320030813B /* WhatsNewTitleView.swift */; };
+		8C8E7DB821CF57320030813B /* WhatsNewItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7DA121CF57320030813B /* WhatsNewItemTableViewCell.swift */; };
+		8C8E7DB921CF57320030813B /* WhatsNewItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7DA221CF57320030813B /* WhatsNewItemsView.swift */; };
+		8C8E7DBA21CF57320030813B /* InMemoryWhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7DA421CF57320030813B /* InMemoryWhatsNewVersionStore.swift */; };
+		8C8E7DBB21CF57320030813B /* KeyValueWhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7DA521CF57320030813B /* KeyValueWhatsNewVersionStore.swift */; };
+		8C8E7DBC21CF57320030813B /* WhatsNewVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E7DA621CF57320030813B /* WhatsNewVersionStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +44,28 @@
 		8C0B8B6421CF5086007748A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C0B8B6721CF5086007748A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C0B8B6921CF5086007748A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8E7D8A21CF57320030813B /* WhatsNewViewController+TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+TitleView.swift"; sourceTree = "<group>"; };
+		8C8E7D8B21CF57320030813B /* WhatsNewViewController+CompletionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+CompletionButton.swift"; sourceTree = "<group>"; };
+		8C8E7D8C21CF57320030813B /* WhatsNewViewController+HapticFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+HapticFeedback.swift"; sourceTree = "<group>"; };
+		8C8E7D8D21CF57320030813B /* WhatsNewViewController+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+Animation.swift"; sourceTree = "<group>"; };
+		8C8E7D8E21CF57320030813B /* WhatsNewViewController+ItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+ItemsView.swift"; sourceTree = "<group>"; };
+		8C8E7D8F21CF57320030813B /* WhatsNewViewController+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+Configuration.swift"; sourceTree = "<group>"; };
+		8C8E7D9021CF57320030813B /* WhatsNewViewController+DetailButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNewViewController+DetailButton.swift"; sourceTree = "<group>"; };
+		8C8E7D9121CF57320030813B /* WhatsNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewViewController.swift; sourceTree = "<group>"; };
+		8C8E7D9321CF57320030813B /* WhatsNew+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNew+Version.swift"; sourceTree = "<group>"; };
+		8C8E7D9421CF57320030813B /* WhatsNew+Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WhatsNew+Item.swift"; sourceTree = "<group>"; };
+		8C8E7D9521CF57320030813B /* WhatsNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNew.swift; sourceTree = "<group>"; };
+		8C8E7D9721CF57320030813B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8C8E7D9821CF57320030813B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		8C8E7D9B21CF57320030813B /* WhatsNewButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewButtonsView.swift; sourceTree = "<group>"; };
+		8C8E7D9C21CF57320030813B /* WhatsNewCompletionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewCompletionButton.swift; sourceTree = "<group>"; };
+		8C8E7D9D21CF57320030813B /* WhatsNewDetailButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewDetailButton.swift; sourceTree = "<group>"; };
+		8C8E7D9F21CF57320030813B /* WhatsNewTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewTitleView.swift; sourceTree = "<group>"; };
+		8C8E7DA121CF57320030813B /* WhatsNewItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewItemTableViewCell.swift; sourceTree = "<group>"; };
+		8C8E7DA221CF57320030813B /* WhatsNewItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewItemsView.swift; sourceTree = "<group>"; };
+		8C8E7DA421CF57320030813B /* InMemoryWhatsNewVersionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryWhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		8C8E7DA521CF57320030813B /* KeyValueWhatsNewVersionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueWhatsNewVersionStore.swift; sourceTree = "<group>"; };
+		8C8E7DA621CF57320030813B /* WhatsNewVersionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewVersionStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +104,102 @@
 				8C0B8B6421CF5086007748A2 /* Assets.xcassets */,
 				8C0B8B6621CF5086007748A2 /* LaunchScreen.storyboard */,
 				8C0B8B6921CF5086007748A2 /* Info.plist */,
+				8C8E7D8821CF57320030813B /* Sources */,
 			);
 			path = "What's New?";
+			sourceTree = "<group>";
+		};
+		8C8E7D8821CF57320030813B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D8921CF57320030813B /* Configuration */,
+				8C8E7D9121CF57320030813B /* WhatsNewViewController.swift */,
+				8C8E7D9221CF57320030813B /* Models */,
+				8C8E7D9621CF57320030813B /* Extensions */,
+				8C8E7D9921CF57320030813B /* Views */,
+				8C8E7DA321CF57320030813B /* Store */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8C8E7D8921CF57320030813B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D8A21CF57320030813B /* WhatsNewViewController+TitleView.swift */,
+				8C8E7D8B21CF57320030813B /* WhatsNewViewController+CompletionButton.swift */,
+				8C8E7D8C21CF57320030813B /* WhatsNewViewController+HapticFeedback.swift */,
+				8C8E7D8D21CF57320030813B /* WhatsNewViewController+Animation.swift */,
+				8C8E7D8E21CF57320030813B /* WhatsNewViewController+ItemsView.swift */,
+				8C8E7D8F21CF57320030813B /* WhatsNewViewController+Configuration.swift */,
+				8C8E7D9021CF57320030813B /* WhatsNewViewController+DetailButton.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8C8E7D9221CF57320030813B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D9321CF57320030813B /* WhatsNew+Version.swift */,
+				8C8E7D9421CF57320030813B /* WhatsNew+Item.swift */,
+				8C8E7D9521CF57320030813B /* WhatsNew.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C8E7D9621CF57320030813B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D9721CF57320030813B /* UIColorExtension.swift */,
+				8C8E7D9821CF57320030813B /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C8E7D9921CF57320030813B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D9A21CF57320030813B /* Buttons */,
+				8C8E7D9E21CF57320030813B /* Title */,
+				8C8E7DA021CF57320030813B /* Items */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C8E7D9A21CF57320030813B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D9B21CF57320030813B /* WhatsNewButtonsView.swift */,
+				8C8E7D9C21CF57320030813B /* WhatsNewCompletionButton.swift */,
+				8C8E7D9D21CF57320030813B /* WhatsNewDetailButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8C8E7D9E21CF57320030813B /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7D9F21CF57320030813B /* WhatsNewTitleView.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		8C8E7DA021CF57320030813B /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7DA121CF57320030813B /* WhatsNewItemTableViewCell.swift */,
+				8C8E7DA221CF57320030813B /* WhatsNewItemsView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		8C8E7DA321CF57320030813B /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E7DA421CF57320030813B /* InMemoryWhatsNewVersionStore.swift */,
+				8C8E7DA521CF57320030813B /* KeyValueWhatsNewVersionStore.swift */,
+				8C8E7DA621CF57320030813B /* WhatsNewVersionStore.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +273,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8E7DAC21CF57320030813B /* WhatsNewViewController+Configuration.swift in Sources */,
+				8C8E7DB221CF57320030813B /* UIColorExtension.swift in Sources */,
+				8C8E7DB021CF57320030813B /* WhatsNew+Item.swift in Sources */,
+				8C8E7DAE21CF57320030813B /* WhatsNewViewController.swift in Sources */,
+				8C8E7DAF21CF57320030813B /* WhatsNew+Version.swift in Sources */,
+				8C8E7DB521CF57320030813B /* WhatsNewCompletionButton.swift in Sources */,
+				8C8E7DB721CF57320030813B /* WhatsNewTitleView.swift in Sources */,
+				8C8E7DBA21CF57320030813B /* InMemoryWhatsNewVersionStore.swift in Sources */,
+				8C8E7DB921CF57320030813B /* WhatsNewItemsView.swift in Sources */,
+				8C8E7DAB21CF57320030813B /* WhatsNewViewController+ItemsView.swift in Sources */,
+				8C8E7DAA21CF57320030813B /* WhatsNewViewController+Animation.swift in Sources */,
+				8C8E7DB821CF57320030813B /* WhatsNewItemTableViewCell.swift in Sources */,
+				8C8E7DB121CF57320030813B /* WhatsNew.swift in Sources */,
+				8C8E7DB321CF57320030813B /* UIImageExtension.swift in Sources */,
 				8C0B8B6021CF5084007748A2 /* ViewController.swift in Sources */,
+				8C8E7DBB21CF57320030813B /* KeyValueWhatsNewVersionStore.swift in Sources */,
+				8C8E7DA821CF57320030813B /* WhatsNewViewController+CompletionButton.swift in Sources */,
+				8C8E7DBC21CF57320030813B /* WhatsNewVersionStore.swift in Sources */,
+				8C8E7DA721CF57320030813B /* WhatsNewViewController+TitleView.swift in Sources */,
 				8C0B8B5E21CF5084007748A2 /* AppDelegate.swift in Sources */,
+				8C8E7DA921CF57320030813B /* WhatsNewViewController+HapticFeedback.swift in Sources */,
+				8C8E7DAD21CF57320030813B /* WhatsNewViewController+DetailButton.swift in Sources */,
+				8C8E7DB421CF57320030813B /* WhatsNewButtonsView.swift in Sources */,
+				8C8E7DB621CF57320030813B /* WhatsNewDetailButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q58872TYB;
 				INFOPLIST_FILE = "What's New?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q58872TYB;
 				INFOPLIST_FILE = "What's New?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
