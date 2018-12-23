@@ -53,15 +53,22 @@ class ViewController: UIViewController {
             configuration.itemsView.subtitleColor = UIColor(named: "lightText")!
             configuration.completionButton.backgroundColor = UIColor(named: "iconColor")!
         }
-        
         let config = WhatsNewViewController.Configuration(theme: theme)
+        
+        //MARK:- Key-value version store
+        //use this to store whether or not the user has been presented with your "what's new" screen before
+        let keyValueVersionStore = KeyValueWhatsNewVersionStore(keyValueable: UserDefaults.standard) //alternatively, this can be tied into iCloud for universal apps that a user might experience on multiple devices
         
         //using a predefined style
         let whatsNew = WhatsNew(title: "2020", items: items)
-        let whatsNewVC = WhatsNewViewController(whatsNew: whatsNew, configuration: config)
+        let whatsNewVC = WhatsNewViewController(whatsNew: whatsNew, configuration: config, versionStore: keyValueVersionStore)
         
-        //present the view controller
-        present(whatsNewVC, animated: true, completion: nil)
+        //whatsNewVC controller is now an optional
+        if let vc = whatsNewVC {
+             //present the view controller
+            present(vc, animated: true, completion: nil)
+        }
+       
     }
 }
 
