@@ -8,9 +8,10 @@
 
 import UIKit
 
-
 class ViewController: UIViewController {
 
+    var hasNewUpdates = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,9 +44,21 @@ class ViewController: UIViewController {
                 image: UIImage(named: "feature4"))
             ]
         
+        //MARK:- custom theme configuration
+        let theme = WhatsNewViewController.Theme { configuration in
+            configuration.apply(animation: .fade)
+            configuration.backgroundColor = UIColor(named: "bgColor")!
+            configuration.titleView.titleColor = UIColor(named: "lightText")!
+            configuration.itemsView.titleColor = UIColor(named: "lightText")!
+            configuration.itemsView.subtitleColor = UIColor(named: "lightText")!
+            configuration.completionButton.backgroundColor = UIColor(named: "iconColor")!
+        }
+        
+        let config = WhatsNewViewController.Configuration(theme: theme)
+        
         //using a predefined style
         let whatsNew = WhatsNew(title: "2020", items: items)
-        let whatsNewVC = WhatsNewViewController(whatsNew: whatsNew)
+        let whatsNewVC = WhatsNewViewController(whatsNew: whatsNew, configuration: config)
         
         //present the view controller
         present(whatsNewVC, animated: true, completion: nil)
